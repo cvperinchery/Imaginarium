@@ -14,6 +14,7 @@
 		8B2BB8631B2642370057098C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BB8621B2642370057098C /* Images.xcassets */; };
 		8B2BB8661B2642370057098C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2BB8641B2642370057098C /* LaunchScreen.xib */; };
 		8B2BB8721B2642380057098C /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB8711B2642380057098C /* ImaginariumTests.m */; };
+		8B2BB87D1B2642930057098C /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BB87C1B2642930057098C /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8B2BB86B1B2642370057098C /* ImaginariumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2BB8701B2642370057098C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2BB8711B2642380057098C /* ImaginariumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumTests.m; sourceTree = "<group>"; };
+		8B2BB87B1B2642930057098C /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		8B2BB87C1B2642930057098C /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,11 @@
 		8B2BB8541B2642370057098C /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				8B2BB8591B2642370057098C /* AppDelegate.h */,
-				8B2BB85A1B2642370057098C /* AppDelegate.m */,
 				8B2BB85C1B2642370057098C /* ViewController.h */,
 				8B2BB85D1B2642370057098C /* ViewController.m */,
 				8B2BB85F1B2642370057098C /* Main.storyboard */,
+				8B2BB87B1B2642930057098C /* ImageViewController.h */,
+				8B2BB87C1B2642930057098C /* ImageViewController.m */,
 				8B2BB8621B2642370057098C /* Images.xcassets */,
 				8B2BB8641B2642370057098C /* LaunchScreen.xib */,
 				8B2BB8551B2642370057098C /* Supporting Files */,
@@ -96,6 +99,8 @@
 		8B2BB8551B2642370057098C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B2BB85A1B2642370057098C /* AppDelegate.m */,
+				8B2BB8591B2642370057098C /* AppDelegate.h */,
 				8B2BB8561B2642370057098C /* Info.plist */,
 				8B2BB8571B2642370057098C /* main.m */,
 			);
@@ -221,6 +226,7 @@
 			files = (
 				8B2BB85E1B2642370057098C /* ViewController.m in Sources */,
 				8B2BB85B1B2642370057098C /* AppDelegate.m in Sources */,
+				8B2BB87D1B2642930057098C /* ImageViewController.m in Sources */,
 				8B2BB8581B2642370057098C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
